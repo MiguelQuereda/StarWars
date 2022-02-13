@@ -172,13 +172,9 @@ main div p {
     justify-content: center;
 }
 
-#naves {
+#naves,#vehiculos{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 70%;
-}
-
-#vehiculos {
-	justify-content: center;
+    width: 40%;
 }

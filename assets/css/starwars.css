@@ -51,11 +51,11 @@
 @font-face {
     font-family: 'star_jedi_logo_doubleline1Rg';
     src: url('./assets/fonts/logo/stjldbl1-webfont.eot');
-    src: url('stjldbl1-webfont.eot?#iefix') format('embedded-opentype'),
-        url('stjldbl1-webfont.woff2') format('woff2'),
-        url('stjldbl1-webfont.woff') format('woff'),
-        url('stjldbl1-webfont.ttf') format('truetype'),
-        url('stjldbl1-webfont.svg#star_jedi_logo_doubleline1Rg') format('svg');
+    src: url('./stjldbl1-webfont.eot?#iefix') format('embedded-opentype'),
+        url('./stjldbl1-webfont.woff2') format('woff2'),
+        url('./stjldbl1-webfont.woff') format('woff'),
+        url('./stjldbl1-webfont.ttf') format('truetype'),
+        url('./stjldbl1-webfont.svg#star_jedi_logo_doubleline1Rg') format('svg');
     font-weight: normal;
     font-style: normal;
 

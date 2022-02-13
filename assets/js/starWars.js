@@ -1,5 +1,4 @@
 'use strict'
-let z = 1;
 let starwars = document.getElementById("starWars");
 let btn = document.getElementById("btnSW");
 btn.addEventListener("click", botonImprimir);
@@ -108,13 +107,12 @@ function mostrarPersonajesFinal(url) {
 
                 let personaje = document.createElement("option");
                 personaje.innerText = arrayPersonajes[i].name;
-                personaje.value = "https://swapi.dev/api/people/" + z;
+                personaje.value = personaje.url;
                 personaje.addEventListener("click", function cambiarNombre() {
                     let swBoton = document.getElementById("btnSW");
                     swBoton.innerText = "Información de: " + personaje.innerText;
                     swBoton.value = personaje.value;
                 });
-                z++;
                 starwars.appendChild(personaje);
             }
             if (listado.next != null) {

@@ -88,12 +88,16 @@ function limpiarCampo(id) {
 
 }
 function rellenarDatos(idPadre, textoInsertar, etiqueta) {
+    // Primero borramos los hijos, ya que no queremos que se agrupen los datos
     let padre = document.getElementById(idPadre);
     if (padre.hasChildNodes()) {
+        // no podemos reutilizar el otro método, ya que, en este caso, también eliminariamos la descripción
+        // Podríamos cambiar la etiqueta de destino, pero he optado por hacerlo así.
         padre.removeChild(padre.lastChild);
     }
-    let hijo = document.createElement(etiqueta);
-    hijo.innerText = textoInsertar;
+
+    let hijo = document.createElement(etiqueta); // Aquí decidimos que tipo de elemento queremos que sea el nuevo dato
+    hijo.innerText = textoInsertar; // insertamos el texto
     padre.appendChild(hijo);
 }
 // LISTAR TODOS LOS PERSONAJES

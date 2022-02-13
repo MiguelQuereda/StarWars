@@ -1,0 +1,184 @@
+@font-face {
+    font-family: 'star_jediregular';
+    src: url('./assets/fonts/jediA/starjedi-webfont.eot');
+    src: url('./assets/fonts/jediA/starjedi-webfont.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/jediA/starjedi-webfont.woff2') format('woff2'),
+        url('./assets/fonts/jediA/starjedi-webfont.woff') format('woff'),
+        url('./assets/fonts/jediA/starjedi-webfont.ttf') format('truetype'),
+        url('./assets/fonts/jediA/starjedi-webfont.svg#star_jediregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'star_jedi_hollowregular';
+    src: url('./assets/fonts/jediA/starjhol-webfont.eot');
+    src: url('./assets/fonts/jediA/starjhol-webfont.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/jediA/starjhol-webfont.woff2') format('woff2'),
+        url('./assets/fonts/jediA/starjhol-webfont.woff') format('woff'),
+        url('./assets/fonts/jediA/starjhol-webfont.ttf') format('truetype'),
+        url('./assets/fonts/jediA/starjhol-webfont.svg#star_jedi_hollowregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'star_jedi_outlineregular';
+    src: url('./assets/fonts/jediB/starjout-webfont.eot');
+    src: url('./assets/fonts/jediB/starjout-webfont.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/jediB/starjout-webfont.woff2') format('woff2'),
+        url('./assets/fonts/jediB/starjout-webfont.woff') format('woff'),
+        url('./assets/fonts/jediB/starjout-webfont.ttf') format('truetype'),
+        url('./assets/fonts/jediB/starjout-webfont.svg#star_jedi_outlineregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'starjedi_special_editionRg';
+    src: url('./assets/fonts/jediC/stjedise-webfont.eot');
+    src: url('./assets/fonts/jediC/stjedise-webfont.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/jediC/stjedise-webfont.woff2') format('woff2'),
+        url('./assets/fonts/jediC/stjedise-webfont.woff') format('woff'),
+        url('./assets/fonts/jediC/stjedise-webfont.ttf') format('truetype'),
+        url('./assets/fonts/jediC/stjedise-webfont.svg#starjedi_special_editionRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'star_jedi_logo_doubleline1Rg';
+    src: url('./assets/fonts/logo/stjldbl1-webfont.eot');
+    src: url('stjldbl1-webfont.eot?#iefix') format('embedded-opentype'),
+        url('stjldbl1-webfont.woff2') format('woff2'),
+        url('stjldbl1-webfont.woff') format('woff'),
+        url('stjldbl1-webfont.ttf') format('truetype'),
+        url('stjldbl1-webfont.svg#star_jedi_logo_doubleline1Rg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'star_jedi_logo_doubleline2Rg';
+    src: url('./assets/fonts/logo/stjldbl2-webfont.eot');
+    src: url('./assets/fonts/logo/stjldbl2-webfont.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/logo/stjldbl2-webfont.woff2') format('woff2'),
+        url('./assets/fonts/logo/stjldbl2-webfont.woff') format('woff'),
+        url('./assets/fonts/logo/stjldbl2-webfont.ttf') format('truetype'),
+        url('./assets/fonts/logo/stjldbl2-webfont.svg#star_jedi_logo_doubleline2Rg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'star_jedi_logo_monolineRg';
+    src: url('./assets/fonts/logo/strjmono-webfont.eot');
+    src: url('./assets/fonts/logo/strjmono-webfont.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/logo/strjmono-webfont.woff2') format('woff2'),
+        url('./assets/fonts/logo/strjmono-webfont.woff') format('woff'),
+        url('./assets/fonts/logo/strjmono-webfont.ttf') format('truetype'),
+        url('./assets/fonts/logo/strjmono-webfont.svg#star_jedi_logo_monolineRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+	text-align: center;
+	padding: 40px 0;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+h1,h3{
+    font-family: 'star_jedi_hollowregular';
+}
+
+#starWars, #btnSW {
+	color: white;
+	background-color: black;
+	border: yellow 1px solid;
+	padding: 5px;
+	width: 50%;
+	text-align: center;
+	margin: 10px auto;
+}
+#btnSW {
+	border-radius: 10px;
+	width: 35%;
+	box-shadow: 3px 3px 20px 3px rgba(255, 255, 0, 0.50);
+    
+}
+
+main {
+    margin: 50px;
+}
+
+main div {
+    border: yellow double 3px;
+    padding: 10px;
+    margin: 10px;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+main div p {
+    padding: 8px;
+}
+
+#naves p {
+    font-weight: 300;
+
+}
+
+#peliculas li {
+    font-weight: 800;
+    padding: 10px;
+}
+
+#peliculas {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    width: 80%;
+    margin: 20px;
+}
+
+.columnas {
+    flex-direction: column;
+    width: 40%;
+}
+.pelis{
+    width: 100% !important;
+}
+
+.datosExtras {
+    align-items: flex-start !important;
+    justify-content: center;
+}
+
+#naves {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+}
+
+#vehiculos {
+	justify-content: center;
+}

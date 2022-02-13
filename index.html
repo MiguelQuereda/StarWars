@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promesas, palabras vacias</title>
+    <link rel="stylesheet" href="assets/css/starwars.css">
+</head>
+
+<body>
+    <header>
+        <h1>Star Wars API</h1>
+    <select name="starWars" id="starWars">
+        <option value="0">Selecciona un personaje de Star Wars</option>
+    </select>
+    <button id="btnSW">Información de: </button>
+</header>
+    <main>
+        <div class="datosPersonales">
+            <div id="nombre">
+                <h3>Nombre:</h3>
+            </div>
+            <div id="altura">
+                <h3>Altura:</h3>
+            </div>
+            <div id="genero">
+                <h3>Género:</h3>
+            </div>
+            <div id="AnyoNacimiento">
+                <h3>Año de nacimiento:</h3>
+            </div>
+            <div id="planeta">
+                <h3>Planeta de origen:</h3>
+            </div>
+        </div>
+        <div class="datosExtras">
+            <div class="columnas pelis">
+                <h3>Películas</h3>
+                <div id="peliculas"></div>
+            </div>
+            <div class="columnas">
+                <h3>Naves</h3>
+                <div id="naves"></div>
+            </div>
+            <div class="columnas">
+                <h3>Vehículos</h3>
+                <div id="vehiculos"></div>
+            </div>
+        </div>
+    </main>
+    <script src="assets/js/starWars.js"></script>
+</body>
+
+</html>

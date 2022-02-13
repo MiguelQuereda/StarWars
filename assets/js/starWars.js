@@ -7,8 +7,6 @@ function botonImprimir() {
     console.log(url);
     if (btn.value == 0) {
         confirm("Por favor, selecciona un personaje, May the Force Be With You");
-    } else if (btn.value == "https://swapi.dev/api/people/17") {
-        confirm("Este personaje no tiene datos.");
     } else {
         fetch(url).then(respuesta => respuesta.json())
             .then(persona => {
@@ -104,10 +102,10 @@ function mostrarPersonajesFinal(url) {
         .then(listado => {
             let arrayPersonajes = listado.results;
             for (let i = 0; i < arrayPersonajes.length; i++) {
-
+                
                 let personaje = document.createElement("option");
                 personaje.innerText = arrayPersonajes[i].name;
-                personaje.value = personaje.url;
+                personaje.value = arrayPersonajes[i].url;
                 personaje.addEventListener("click", function cambiarNombre() {
                     let swBoton = document.getElementById("btnSW");
                     swBoton.innerText = "Información de: " + personaje.innerText;

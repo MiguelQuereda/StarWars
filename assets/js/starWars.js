@@ -3,9 +3,9 @@ let starwars = document.getElementById("starWars");
 let btn = document.getElementById("btnSW");
 btn.addEventListener("click", botonImprimir);
 function botonImprimir() {
-    let url = btn.value;
+    let url = starwars.value;
     console.log(url);
-    if (btn.value == 0) {
+    if (url === 0) {
         confirm("Por favor, selecciona un personaje, May the Force Be With You");
     } else {
         fetch(url).then(respuesta => respuesta.json())

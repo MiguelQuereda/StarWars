@@ -11,13 +11,13 @@
 }
 
 @font-face {
-    font-family: 'star_jedi_hollowregular';
+    font-family: 'star_jedi_hollowregular';/*jediA/starjhol-webfont.eot'*/
     src: url('./assets/fonts/jediA/starjhol-webfont.eot');
-    src: url('./assets/fonts/jediA/starjhol-webfont.eot?#iefix') format('embedded-opentype'),
-        url('./assets/fonts/jediA/starjhol-webfont.woff2') format('woff2'),
-        url('./assets/fonts/jediA/starjhol-webfont.woff') format('woff'),
-        url('./assets/fonts/jediA/starjhol-webfont.ttf') format('truetype'),
-        url('./assets/fonts/jediA/starjhol-webfont.svg#star_jedi_hollowregular') format('svg');
+    src: url('/assets/fonts/jediA/starjhol-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/jediA/starjhol-webfont.woff2') format('woff2'),
+         url('/assets/fonts/jediA/starjhol-webfont.woff') format('woff'),
+         url('/assets/fonts/jediA/starjhol-webfont.ttf') format('truetype'),
+         url('/assets/fonts/jediA/starjhol-webfont.svg#star_jedi_hollowregular') format('svg');
     font-weight: normal;
     font-style: normal;
 

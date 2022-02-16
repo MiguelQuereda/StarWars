@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap');
+/*font-family: 'Gideon Roman', cursive;*/
+
 @font-face {
     font-family: 'star_jediregular';
     src: url('./assets/fonts/jediA/starjedi-webfont.eot');
@@ -103,7 +106,8 @@ header {
 	flex-direction: column;
 }
 h1,h3{
-    font-family: 'star_jedi_hollowregular';
+    /*font-family: 'star_jedi_hollowregular';*/
+    font-family: 'Gideon Roman', cursive;
 }
 
 #starWars, #btnSW {
